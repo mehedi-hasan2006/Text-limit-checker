@@ -15,13 +15,13 @@ text.addEventListener("input", () => {
     text.classList.remove("focus:ring-violet-600");
     text.classList.remove("border-none");
     text.classList.add("focus:ring-red-600");
-
+    text.style.color = "red";
     limitChecker.style.color = "red";
   } else {
     text.classList.add("focus:ring-2");
     text.classList.add("focus:ring-violet-600");
     text.classList.add("focus:outline-none");
-
+    text.style.color = "#292929";
     limitChecker.style.color = "#292929";
   }
 });
